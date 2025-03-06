@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="HLSL.fx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="HLSL.fx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Evergine.DirectX11" Version="2024.10.24.1957" />
+    <PackageReference Include="Evergine.DirectX12" Version="2024.10.24.1957" />
+    <PackageReference Include="Evergine.Forms" Version="2024.10.24.1957" />
+  </ItemGroup>
+
+</Project>

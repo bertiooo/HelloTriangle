@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35806.99 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvergineTriangle", "EvergineTriangle\EvergineTriangle.csproj", "{A1C3D5C7-979B-44A8-AA5A-92641DDE35C6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1C3D5C7-979B-44A8-AA5A-92641DDE35C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1C3D5C7-979B-44A8-AA5A-92641DDE35C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1C3D5C7-979B-44A8-AA5A-92641DDE35C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1C3D5C7-979B-44A8-AA5A-92641DDE35C6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1AD72360-A149-463A-9480-59C7AFD000C1}
+	EndGlobalSection
+EndGlobal
