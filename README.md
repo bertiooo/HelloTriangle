@@ -11,6 +11,8 @@ Attempted to read or write protected memory. This is often an indication that ot
 
 Any help appreciated.
 
+Edit: this was a driver issue. After updating the driver it works, the triangle is drawn.
+
 ## Credits
 
 This project is using following packages:
